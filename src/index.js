@@ -13,7 +13,8 @@ app.use(cors())
 app.use(bodyParser.json());
 
 mongoose.connect(process.env.MONGO_URL, {
-    useNewUrlParser: true
+    useUnifiedTopology: true, // Use the new unified topology engine
+    useNewUrlParser: true,
 }, mongoose.set('strictQuery', false))
     .then(() => console.log("mongoose is connected"))
     .catch(err => console.log(err))
