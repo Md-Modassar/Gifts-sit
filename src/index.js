@@ -13,8 +13,7 @@ app.use(cors())
 app.use(bodyParser.json());
 
 mongoose.connect(process.env.MONGO_URL, {
-    useUnifiedTopology: true, // Use the new unified topology engine
-    useNewUrlParser: true,
+    useNewUrlParser: true
 }, mongoose.set('strictQuery', false))
     .then(() => console.log("mongoose is connected"))
     .catch(err => console.log(err))
@@ -26,5 +25,5 @@ mongoose.connect(process.env.MONGO_URL, {
     const PORT=process.env.PORT ||8080
 
     app.listen(PORT,()=>{
-        console.log(`server running 8081`)
+        console.log(`server running 3001`)
     })
