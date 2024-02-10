@@ -1,0 +1,42 @@
+.banner{
+    height: 250px;
+    width: 1000px;
+    margin: 50px 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 300px;
+    border-radius: 20px;
+    background: linear-gradient(60deg, #f37dd5, #abf8c222 70%);;
+}
+
+@media screen and (max-width: 480px){
+    .banner{
+        height: 100px;
+        width: 320px;
+        margin: 10px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        border-radius: 20px;
+        background: linear-gradient(60deg, #f37ddd, #abf8c222 70%);;
+    } 
+    .ptm{
+        height: 100px;
+        width: 150px;
+      
+    }
+    .ptm img{
+        height: 100%;
+        width: 100%;
+    }
+    .gift-img{
+        height: 100px;
+        width: 150px;
+        
+    }
+
+     
+}
+

@@ -1,0 +1,80 @@
+.card{
+    height: 450px;
+    width: 250px;
+    display: flex;
+    flex-direction: column; 
+    border-radius: 20px;
+    border: 1px solid gray;
+
+}
+.card h1{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Lobster', sans-serif;;
+    color: rgb(12, 39, 12);
+}
+.card img{
+    height:300px;
+    width: 249px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.price{
+    margin: 1px 20px;
+    align-items: center;
+    
+    
+}
+.price >:nth-child(2){
+    font-size: 25px;
+    font-family: 'Lobster', sans-serif;;
+    color: greenyellow;
+    
+}
+.price >:nth-child(1){
+    font-size: 18px;
+    font-family: 'Lobster', sans-serif;;
+    color: red;
+    margin-right: 10px;
+    
+}
+.rating{
+    display: flex;
+    height: 20px;
+    width: 50px;
+    background: rgb(39, 138, 46);
+    align-items: center;
+    justify-content: center;
+    margin: 5px 10px;
+    border-radius: 5px;
+
+}
+.rating h3{
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Lobster', sans-serif;;
+    color: white;
+}
+@media screen and (max-width: 480px){
+    .card{
+        height: 300px;
+        width: 220px;
+        display: flex;
+        flex-direction: column; 
+        border-radius: 20px;
+        border: 1px solid gray;
+    
+    }
+    .card img{
+        height:200px;
+        width: 210px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .card h1{
+        font-size: 15px;
+        font-weight: 200;
+        font-family: 'Lobster', sans-serif;;
+        color: rgb(12, 39, 12);
+    }
+}

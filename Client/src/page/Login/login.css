@@ -1,0 +1,9 @@
+.signup-home{
+    display: flex;
+    gap: 20px;
+  
+}
+.signup-home h2{
+    font-size: 15px;
+    color: green;
+}

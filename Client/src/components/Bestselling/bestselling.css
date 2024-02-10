@@ -1,0 +1,195 @@
+.selling{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+    border-radius: 20px;
+}
+.sell-left{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 400px;
+
+}
+.sell-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sell-text h1{
+    font-size: 40px;
+    font-family: 'Slabo 27px', serif;
+    color: rgb(59, 94, 59)
+    ;
+}
+.sell-text h3{
+    font-size: 25px;
+    color: red;
+    font-family: 'Lobster', sans-serif;;
+}
+
+.left-button button{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    background: red;
+    color: white;
+    font-size: 30px;
+    font-family: 'Lobster', sans-serif;;
+    cursor: pointer;
+    
+}
+.left-button button:hover{
+    height: 50px;
+    width: 140px;
+    border-radius: 20px;
+    border: none;
+    background:white;
+    color:red;
+    font-size: 30px;
+    font-family: 'Lobster', sans-serif;
+    border: 2px solid red;
+    
+}
+.sell-right{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0px;
+    
+}
+.sell-product{
+    height: 450px;
+    width: 250px;
+    display: flex;
+    flex-direction: column; 
+    border-radius: 20px;
+    border: 1px solid gray;
+
+}
+.sell-product h1{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Lobster', sans-serif;;
+    color: rgb(12, 39, 12);
+}
+.sell-product img{
+    height:100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.price{
+    margin: 1px 20px;
+    align-items: center;
+    
+    
+}
+.price >:nth-child(2){
+    font-size: 25px;
+    font-family: 'Lobster', sans-serif;;
+    color: greenyellow;
+    
+}
+.price >:nth-child(1){
+    font-size: 18px;
+    font-family: 'Lobster', sans-serif;;
+    color: red;
+    margin-right: 10px;
+    
+}
+.rating{
+    display: flex;
+    height: 20px;
+    width: 50px;
+    background: rgb(39, 138, 46);
+    align-items: center;
+    justify-content: center;
+    margin: 5px 10px;
+    border-radius: 5px;
+
+}
+.rating h3{
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Lobster', sans-serif;;
+    color: white;
+}
+
+@media screen and (max-width: 480px){
+    .selling{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+        margin: 20px 0px;
+        border-radius: 20px;
+        padding: 2px;
+    }
+    .sell-left{
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0px;
+    
+    }
+    .sell-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sell-text h1{
+        font-size: 20px;
+        font-family: 'Slabo 27px', serif;
+        color: rgb(59, 94, 59)
+        ;
+    }
+    .sell-text h3{
+        font-size: 15px;
+        color: red;
+        font-family: 'Lobster', sans-serif;;
+    }
+    
+    .left-button button{
+        height: 30px;
+        width: 100px;
+        border-radius: 10px;
+        border: none;
+        background: red;
+        color: white;
+        font-size: 20px;
+        font-family: 'Lobster', sans-serif;;
+        cursor: pointer;
+        
+    }
+    .left-button button:hover{
+        height: 30px;
+        width: 100px;
+        border-radius: 10px;
+        border: none;
+        background:white;
+        color:red;
+        font-size: 20px;
+        font-family: 'Lobster', sans-serif;
+        border: 2px solid red;
+        
+    }
+    .sell-right{
+        display: flex;
+        overflow-x: auto; /* Enable horizontal scrolling */
+        white-space: nowrap;
+        align-items: center;
+        justify-content: start;
+        padding: 10px;
+        width: 100%;   
+    }
+    
+}
