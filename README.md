@@ -47,5 +47,5 @@ Welcome to MERN Gifts, an innovative web application that transforms the art of 
 
 1. Clone the repository:
    ```bash
-   deployee-link:-https://serene-zuccutto-c8e38f.netlify.app/
+   git-hub-link:-https://github.com/Md-Modassar/Gifts-sit.git
    cd mern-gifts
